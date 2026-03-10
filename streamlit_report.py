@@ -2,7 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>링글 AI 전화영어 — 서비스 기획 보고서 v5</title>
+import streamlit as st
+st.title("링글 AI 전화영어 – 서비스 기획 보고서 v5")
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Mono:wght@400;500&display=swap');
 :root{
