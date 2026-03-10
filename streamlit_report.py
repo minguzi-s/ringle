@@ -13,6 +13,22 @@ st.title("링글 AI 전화영어 – 서비스 기획 보고서 v5")
   --bg:#F5F4FC;--tx:#1A1830;--sub:#7B7A8E;--ln:#E8E6F5;
   --s1:#FF4D4D;--s2:#6B4EFF;--s3:#00D48C;
 }
+import streamlit as st
+
+st.markdown("""
+<style>
+.divider{
+    height:3px;
+    background:linear-gradient(90deg,var(--p),var(--p2),transparent);
+    margin:20px 0;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.title("링글 AI 전화영어 - 서비스 기획 보고서 v5")
+
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'Noto Sans KR',sans-serif;background:#E8E6F5;color:var(--tx);}
 .divider{height:3px;background:linear-gradient(90deg,var(--p),var(--p2),transparent);}
