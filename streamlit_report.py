@@ -29,13 +29,23 @@ st.title("링글 AI 전화영어 - 서비스 기획 보고서 v5")
 
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
-/* Tags */
-.tag{display:inline-flex;align-items:center;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:5px 14px;border-radius:100px;margin-bottom:14px;}
-.tag-p{background:var(--p3);color:var(--p);}
-.tag-r{background:#FFE8E8;color:var(--s1);}
-.tag-g{background:#DFFFF4;color:#00A870;}
-.tag-d{background:rgba(107,78,255,0.18);color:var(--p2);}
-.tag-o{background:#FFF0DB;color:var(--org);border:1px solid #FFD8A0;}
+
+import streamlit as st
+
+st.markdown("""
+<style>
+.tag{
+    display:inline-flex;
+    align-items:center;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 
 h2{font-size:34px;font-weight:900;line-height:1.2;margin-bottom:10px;}
 h2 em{color:var(--p);font-style:normal;}
